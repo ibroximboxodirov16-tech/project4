@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 80px;
+}
+
+nav h1{
+    font-family: sans-serif;
+    font-size: 34px;
+    color: black;
+    font-weight: 600;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+nav ul li a{
+    color: #000000;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 166px;
+
+}
+
+main section:nth-child(1){
+    width: 715;
+    height: auto;
+}
+
+main section:nth-child(1) h1 {
+    font-size: 72px;
+    font-weight: 700;
+    color: #000000;
+    font-family: sans-serif;
+}
+
+main section:nth-child(1) span{
+    color: #FF8A56;
+}
+
+main section:nth-child(1) p{
+    font-size: 22px;
+    color: #666666;
+    font-weight: 400;
+    font-family: sans-serif;
+    margin-top: 27px;
+}
+
+.btn {
+    margin-top: 38px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+main section:nth-child(1) .btn button{
+    width: 151px;
+    height: 58px;
+    background: #000000;
+    color: white;
+    cursor: pointer;
+}
+
+main section:nth-child(1) .btn button:nth-child(2){
+    background: white;
+    border: none;
+    color: black;
+}
+
+main section:nth-child(2) {
+    width: 500px;
+    height: 596;
+}
+
+
+body {
+    background: #ffffff;
+    color: #000000;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+.hero {
+    padding: 100px 0;
+    background: #f5f5f5;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.btn {
+    padding: 12px 30px;
+    background: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #333;
+}
+
+.hero-image img {
+    width: 400px;
+}
+
+
+.about {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+
+.projects {
+    padding: 100px 0;
+    background: #0a1a2f;
+    color: white;
+}
+
+.projects h2 {
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 36px;
+}
+
+.project-grid {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.project-card {
+    background: white;
+    color: black;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.project-card img {
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+
+.contact {
+    padding: 80px 0;
+    text-align: center;
+}
